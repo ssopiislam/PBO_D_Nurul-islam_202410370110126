@@ -1,6 +1,7 @@
 package perpustakaan;
 
-public abstract class Buku {
+public abstract class Buku
+{
     protected String judul;
     protected String penulis;
 
@@ -10,8 +11,4 @@ public abstract class Buku {
     }
 
     public abstract void displayInfo();
-
-    public String getJudul() {
-        return judul;
-    }
 }
